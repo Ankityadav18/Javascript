@@ -115,5 +115,22 @@
 
 
 
-
+ 
+function add(){
+    
+    var a=20;
+    
+    return function demo(){
+        var b=30;
+        debugger
+        console.log(a);
+        
+        console.log(b);
+        
+    }
+    
+}
+var result=add();
+console.log((result));
+result();
 
